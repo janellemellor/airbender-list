@@ -13,11 +13,11 @@ exports[`Detail component matches a snapshot 1`] = `
     Earth Kingdom Earth Kingdom Royal Family
   </p>
   <p>
-    Allies:
+    Allies: 
     Royal Earthbender Guards
   </p>
   <p>
-    Enemies:
+    Enemies: 
     Chin
   </p>
 </Fragment>
