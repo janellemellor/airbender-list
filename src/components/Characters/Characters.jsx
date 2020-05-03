@@ -5,7 +5,7 @@ import Character from './Character.jsx';
 const Characters = ({ characters }) => {
   const allCharacters = characters.map(character => (
     <li key={character.id}>
-      <Character />  
+      <Character {...character} />  
     </li>
   ));
 
