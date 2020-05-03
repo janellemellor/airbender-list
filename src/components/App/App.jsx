@@ -12,7 +12,7 @@ export default function App() {
     <Router>
       <Switch>
         <Route exact path ="/" component={CharactersContainer} />
-        <Route path="/character/:id" component={DetailContainer} />
+        <Route exact path="/:id" component={DetailContainer} />
       </Switch>
     </Router>  
   );

@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { useRouteMatch } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import Detail from '../../components/Detail/Detail.jsx';
 import { fetchCharacterById } from '../../services/airbenderApi.js';
 
-const DetailContainer = () => {
-  const [character, setCharacter] = useState({});
-
-  const match = useRouteMatch('/character/:id');
+const DetailContainer = ({ match }) => {
+  const [character, setCharacter] = useState('');
 
   useEffect(() => {
     fetchCharacterById(match.params.id)
@@ -18,6 +16,14 @@ const DetailContainer = () => {
       <Detail {...character} />
     </>
   );
+};
+
+DetailContainer.propTypes = {
+  match: PropTypes.shape({
+    params: PropTypes.shape({
+      id: PropTypes.string.isRequired
+    }).isRequired
+  }).isRequired
 };
 
 export default DetailContainer;
