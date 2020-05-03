@@ -1,6 +1,10 @@
 import React from 'react';
-import Character from '../Characters/Character.jsx';
+import CharactersContainer from '../../containers/CharactersContainer/CharactersContainer.jsx';
 
 export default function App() {
-  return <Character />;
+  return (
+    <>
+      <CharactersContainer />
+    </>  
+  );
 }
