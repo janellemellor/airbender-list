@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Characters matches the Characters snapshot 1`] = `
+<ul>
+  <li
+    key="5cf5679a915ecad153ab68d3"
+  >
+    <Character />
+  </li>
+  <li
+    key="5cf5679a915ecad153ab68d6"
+  >
+    <Character />
+  </li>
+</ul>
+`;
