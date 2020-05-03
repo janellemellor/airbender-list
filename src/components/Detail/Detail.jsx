@@ -15,8 +15,8 @@ Detail.propTypes = {
   image: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   affiliation: PropTypes.string.isRequired,
-  allies: PropTypes.array.isRequired,
-  enemies: PropTypes.array.isRequired
+  allies: PropTypes.array,
+  enemies: PropTypes.array,
 };
 
 export default Detail;
