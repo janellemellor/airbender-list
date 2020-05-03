@@ -1,6 +1,6 @@
 import React from 'react';
+import Character from '../Characters/Character.jsx';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <Character />;
 }
-  
