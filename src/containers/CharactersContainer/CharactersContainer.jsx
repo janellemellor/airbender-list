@@ -7,7 +7,7 @@ const CharactersContainer = () => {
 
   useEffect(() => {
     fetchAirbenderCharacters()
-      .then(receivedCharacters => setCharacters(receivedCharacters));
+      .then(characters => setCharacters(characters));
   }, []);
 
   return (
