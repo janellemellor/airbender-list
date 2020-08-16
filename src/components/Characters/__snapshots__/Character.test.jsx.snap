@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character matches the Character snapshot 1`] = `
+<Fragment>
+  <img
+    alt="46th Earth King"
+    src="https://vignette.wikia.nocookie.net/avatar/images/5/51/46th_Earth_King.png/revision/latest?cb=20130627160441"
+  />
+  <h3>
+    46th Earth King
+  </h3>
+  <p>
+    Earth Kingdom Earth Kingdom Royal Family
+  </p>
+</Fragment>
+`;
